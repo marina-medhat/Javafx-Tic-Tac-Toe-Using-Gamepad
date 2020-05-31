@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Try_MiniMax.jnlp">
+  <information>
+    <title>Try_MiniMax</title>
+    <vendor>Mark</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Try_MiniMax.jar" size="73924363" download="eager" />
+    <jar href="lib\animatefx-1.2.1-sources.jar" size="52961" download="eager" />
+    <jar href="lib\animatefx-1.2.1.jar" size="94267" download="eager" />
+    <jar href="lib\jinput-2.0.9-natives-all.jar" size="240835" download="eager" />
+    <jar href="lib\jinput-2.0.9.jar" size="207250" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Try_MiniMax" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="try_minimax.Try_MiniMax"  name="Try_MiniMax" />
+  <update check="always"/>
+</jnlp>
